@@ -15,6 +15,9 @@ import java.util.Properties;
  * @since 2020/3/29
  */
 public class BeanFactory {
+    /**
+     * 读取配置文件
+     */
     private static Properties props;
 
     private static Map<String,Object> beans;
